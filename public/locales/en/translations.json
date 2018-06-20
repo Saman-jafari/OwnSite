@@ -1,0 +1,15 @@
+{
+  "Home": "Home",
+  "LOGIN": "Login",
+  "MyMembership": "My Membership",
+  "LOGOUT": "Logout",
+  "Remember":"Remember me",
+  "Forgotpassword":"Forgot password",
+  "Register":"Register",
+  "Download":{
+    "Download":"Download"
+  },
+  "Help": {
+    "Documentation": "Documentation"
+  }
+}

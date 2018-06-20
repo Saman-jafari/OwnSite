@@ -1,0 +1,13 @@
+{
+  "Home": "Startseite",
+  "Help": {
+    "Help": "Hilfe",
+    "Forum": "FORUM",
+    "FAQ": "FAQ",
+    "Documentation": "Dokumentation"
+  },
+  "LOGIN": "Login",
+  "LOGOUT": "Logout",
+  "Password Changing failed":"Password Changing failed DE",
+  "The Password that you typed is wrong please check and try again":"The Password that you typed is wrong please check and try again DE"
+}
