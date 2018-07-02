@@ -1,7 +1,7 @@
 {
-  "name": "BoilPlate",
-  "version": "0.1.0",
-  "private": true,
+  "name": "SamanJafariWeb",
+  "version": "0.2.0",
+  "private": false,
   "proxy": "",
   "devDependencies": {
     "eslint-plugin-prettier": "^2.3.1",
