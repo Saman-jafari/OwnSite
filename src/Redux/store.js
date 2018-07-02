@@ -3,13 +3,12 @@ import thunk from "redux-thunk";
 import rootReducer from "./reducers";
 import createHistory from "history/createBrowserHistory";
 
-import { routerMiddleware } from "react-router-redux";
-import AppEnv from "../AppEnv/AppEnv";
+import AppEnv from "ApiEnv/AppEnv";
 export const history = createHistory();
 
 const initialState = {};
 
-const middleware = [thunk, routerMiddleware(history)];
+const middleware = [thunk];
 
 const ReduxDevTools =
     AppEnv !== ""
