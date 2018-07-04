@@ -8,7 +8,7 @@ const Background = props => {
 
 
     const BackgroundImage = styled.img`
-  position: absolute;
+  position: fixed;
   margin: 0;
   padding: 0;
   border: none;
