@@ -7,15 +7,18 @@ const LogoImg = props => {
 
     const LogoImage = styled.img  `
   display: flex;
-  order: 2;
   margin: auto;
-  width: 8%;
-  height: 8%;
+  width: 50%;
+  height: 50%;
 `;
+    const DivLogo = styled.div `
+  display: flex;
+  margin: auto;
+`
     return (
-        <Fragment>
+        <DivLogo>
             <LogoImage src={SamLogo} alt="websiteLogo" />
-        </Fragment>
+        </DivLogo>
     );
 };
 

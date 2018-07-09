@@ -9,6 +9,8 @@ const ContainerBody = ({children}) => {
     const DivContainer = styled.div`
 display: flex;
 flex-basis: content;
+width: 100%;
+flex-direction: column;
 `;
 
     return (
