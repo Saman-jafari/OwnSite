@@ -3,11 +3,9 @@ import PropTypes from 'prop-types';
 import backgroundImage from 'media/Cityoflights-e1479897891869.jpg'
 import styled from 'styled-components';
 
-const Background = props => {
 
 
-
-    const BackgroundImage = styled.img`
+const BackgroundImage = styled.img`
   position: fixed;
   margin: 0;
   padding: 0;
@@ -19,6 +17,11 @@ const Background = props => {
   z-index: -999999;
   top: 0;
 `;
+
+const Background = props => {
+
+
+
 
     return (
         <Fragment>

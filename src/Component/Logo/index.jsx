@@ -3,18 +3,20 @@ import PropTypes from 'prop-types';
 import styled from "styled-components";
 import SamLogo from 'media/sam-e1479401383607.png';
 
-const LogoImg = props => {
 
-    const LogoImage = styled.img  `
-  display: flex;
-  margin: auto;
+const LogoImage = styled.img  `
   width: 50%;
   height: 50%;
 `;
-    const DivLogo = styled.div `
+const DivLogo = styled.div `
   display: flex;
-  margin: auto;
-`
+  margin: 7rem auto;
+  justify-content: center;
+  position: relative;
+`;
+
+const LogoImg = props => {
+
     return (
         <DivLogo>
             <LogoImage src={SamLogo} alt="websiteLogo" />
