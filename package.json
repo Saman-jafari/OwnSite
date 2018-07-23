@@ -5,7 +5,7 @@
   "proxy": "",
   "devDependencies": {
     "eslint-plugin-prettier": "^2.3.1",
-    "prettier": "1.9.1"
+    "prettier": "1.13.7"
   },
   "dependencies": {
     "axios": "^0.18.0",
