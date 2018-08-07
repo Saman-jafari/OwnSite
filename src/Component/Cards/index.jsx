@@ -23,6 +23,10 @@ const DivimgCard = styled(Link)`
     justify-content: space-around;
     width: 20%;
     padding: 20px;
+    transition: 0.2s ease-in-out all;
+    &:hover {
+        transform: scale(1.06);
+    }
 `;
 const DivInside = styled.a`
     display: flex;

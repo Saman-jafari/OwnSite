@@ -3,11 +3,7 @@ import PropTypes from "prop-types";
 
 class Resume extends Component {
     render() {
-        return (
-            <div>
-                test
-            </div>
-        );
+        return <div>test</div>;
     }
 }
 
