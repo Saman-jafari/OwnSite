@@ -1,7 +1,7 @@
 import { IS_CLICKED_LOG } from "../actions/types";
 
 const initialState = {
-    isClickedLog: false,
+    isClickedLog: false
 };
 
 export default function(state = initialState, action) {

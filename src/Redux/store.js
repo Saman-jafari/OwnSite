@@ -17,7 +17,10 @@ const ReduxDevTools =
 let store = createStore(
     rootReducer,
     initialState,
-    compose(applyMiddleware(...middleware), ReduxDevTools)
+    compose(
+        applyMiddleware(...middleware),
+        ReduxDevTools
+    )
 );
 if (process.env.NODE_ENV !== "development") {
     store = createStore(rootReducer, initialState, compose(applyMiddleware(...middleware)));

@@ -11,7 +11,7 @@ export const fetchToken = payload => dispatch => {
             .post(apiBaseUrl, payload)
             .then(response => {
                 if (response.status === 200) {
-//do somthing here
+                    //do somthing here
                     dispatch({
                         type: GET_TOKEN,
                         payload: payload

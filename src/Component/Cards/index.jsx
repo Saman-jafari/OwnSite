@@ -39,9 +39,9 @@ const Cards = () => {
     return (
         <CardsDiv>
             <DivInside>
-                <DivimgCard to="/">
+                <DivimgCard to="/Resume">
                     <Pofcards>Resume</Pofcards>
-                    <CartImage src={resume} alt="" />
+                    <CartImage href="/Resume" src={resume} alt="" />
                 </DivimgCard>
                 <DivimgCard to="/Photography">
                     <Pofcards>Photography</Pofcards>
@@ -49,17 +49,14 @@ const Cards = () => {
                 </DivimgCard>
                 <DivimgCard to="/Cinematography">
                     <Pofcards>Cinematography</Pofcards>
-
                     <CartImage href="/Cinematography" src={Cinematography} alt="" />
                 </DivimgCard>
                 <DivimgCard to="/Audio">
                     <Pofcards>Audio</Pofcards>
-
                     <CartImage href="/Audio" src={Audio} alt="" />
                 </DivimgCard>
                 <DivimgCard to="/Contact">
                     <Pofcards>Contact</Pofcards>
-
                     <CartImage href="/Contact" src={Contact} alt="" />
                 </DivimgCard>
             </DivInside>

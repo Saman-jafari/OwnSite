@@ -9,14 +9,21 @@ import Photography from "../Container/Photography";
 import Cinematography from "../Container/Cinematography";
 import Audio from "../Container/Audio";
 import Contact from "../Container/Contact";
+import Resume from "../Container/Resume";
 
-//router Component
+/**
+ * Router
+ * @param store
+ * @returns {*}
+ * @constructor
+ */
 const Root = ({ store }) => (
     <Provider store={store}>
         <I18nextProvider i18n={i18n}>
             <Router>
                 <Switch>
                     <Route path="/" exact component={HomePage} />
+                    <Route path="/Resume" component={Resume} />
                     <Route path="/Photography" component={Photography} />
                     <Route path="/Cinematography" component={Cinematography} />
                     <Route path="/Audio" component={Audio} />

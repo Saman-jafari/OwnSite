@@ -11,7 +11,6 @@ import PropTypes from "prop-types";
 import { connect } from "react-redux";
 import { is_clickedLog } from "Redux/actions/clickActions";
 
-
 class HeaderLand extends Component {
     constructor(props) {
         super(props);
@@ -19,12 +18,12 @@ class HeaderLand extends Component {
             current: "home",
             visible: false,
             flagsLang: flagEng,
-            accType: null,
+            accType: null
         };
     }
 
     render() {
-        return ('');
+        return "";
     }
 }
 
@@ -39,7 +38,10 @@ const mapStateToProps = state => ({
 });
 
 export default withRouter(
-    connect(mapStateToProps, {
-        is_clickedLog,
-    })(translate("translations")(HeaderLand))
+    connect(
+        mapStateToProps,
+        {
+            is_clickedLog
+        }
+    )(translate("translations")(HeaderLand))
 );
