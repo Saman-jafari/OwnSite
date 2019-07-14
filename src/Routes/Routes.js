@@ -18,20 +18,20 @@ import Resume from "../Container/Resume";
  * @constructor
  */
 const Root = ({ store }) => (
-    <Provider store={store}>
-        <I18nextProvider i18n={i18n}>
-            <Router>
-                <Switch>
-                    <Route path="/" exact component={HomePage} />
-                    <Route path="/Resume" component={Resume} />
-                    <Route path="/Photography" component={Photography} />
-                    <Route path="/Cinematography" component={Cinematography} />
-                    <Route path="/Audio" component={Audio} />
-                    <Route path="/Contact" component={Contact} />
-                </Switch>
-            </Router>
-        </I18nextProvider>
-    </Provider>
+  <Provider store={store}>
+    <I18nextProvider i18n={i18n}>
+      <Router>
+        <Switch>
+          <Route path="/" exact component={HomePage} />
+          <Route path="/Resume" component={Resume} />
+          <Route path="/Photography" component={Photography} />
+          <Route path="/Cinematography" component={Cinematography} />
+          <Route path="/Audio" component={Audio} />
+          <Route path="/Contact" component={Contact} />
+        </Switch>
+      </Router>
+    </I18nextProvider>
+  </Provider>
 );
 
 export default Root;
