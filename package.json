@@ -5,7 +5,7 @@
   "proxy": "",
   "devDependencies": {},
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "history": "^4.7.2",
     "i18next": "^15.0.2",
     "i18next-browser-languagedetector": "^3.0.0",
